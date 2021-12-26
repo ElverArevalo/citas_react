@@ -27,12 +27,12 @@ function Pacientes({paciente, setPaciente, eliminarPaciente}) {
         <span className='font-normal normal-case'>{paciente.sintoma}</span>
       </p>
       <div className='text-center'>
-        <button className='bg-orange-500 p-3 rounded-md w-1/4 m-5 font-bold text-white hover:bg-orange-400 md:pd-2 '
+        <button className='bg-orange-500 p-3 rounded-md w-1/3 m-5   font-bold text-white hover:bg-orange-400  '
         type='button'
         onClick={() => setPaciente(paciente)}>
           Editar
         </button>
-        <button className='bg-red-900 p-3  rounded-md w-1/4 m-5 font-bold  text-white hover:bg-red-700 md:pd-2'
+        <button className='bg-red-900 p-3  rounded-md w-1/3    m-5 mx-2 font-bold  text-white hover:bg-red-700 '
         type='button'
         onClick={handleEliminar}>Eliminar
         </button>
